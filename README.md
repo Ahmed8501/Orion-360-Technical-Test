@@ -72,7 +72,7 @@ High: 15.72 to 30.73
 3. **Column filter**: I used this node to show only the country and the class as required.
 
 #### WorkFlow for requirement 2:
-![Workflow for requirement 2](images/workflow_2.png)
+![Workflow for requirement 2](images/Workflow_2.png)
 
 
 #### Sample table for requirement 2:
