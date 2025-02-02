@@ -72,7 +72,15 @@ High: 15.72 to 30.73
 
 #### Nodes used :
 1. **Group By**: To get the table from requirement 1 that contains the average temperature per country. I also used 2 other group by nodes. one to get the overall minimum and maximum temperatures, and another one to get the minimum and maximum temperatures for each country (for extra insights to understand the data better).
-2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, . I also changed the name of the column to **Class** as required.
+2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". This is the code used:
+
+$avg_temp$ <= 0.68 => "Low"
+$avg_temp$ > 0.69 AND $avg_temp$ <= 15.71 => "Mid"
+$avg_temp$ > 15.72 => "High"
+
+I also changed the name of the column to **Class** as required.
+
+
 3. **Column filter**: I used this node to show only the country and the class as required.
 
 #### WorkFlow for requirement 2:
