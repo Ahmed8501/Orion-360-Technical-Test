@@ -16,8 +16,12 @@
 #### WorkFlow for requirement 1:
 ![Workflow for requirement 1](images/Requirement%201%20workflow.png)
 
+
+
 #### Sample table for requirement 1:
 ![Workflow for requirement 1](images/Requirement%201%20sample%20table.png)
+
+
 
 ---
 
@@ -27,11 +31,17 @@
 
 I used the output table from requirement 1 and added several steps tp classifiy the countries.
 First of all, I checked the minimum and the maximum avg_temps using the **Group By** node. As we can see below, the minimum temperature is -14.35 and the maximum temperature is 30.73.
+
+
 ![min_max_temperatures](images/min_max_temps.png)
 Next, as an additional analysis, i checked the minimum and the maximim temp recorded by each country to get an insight about the ranges of temperatures in each country.
+
+
 ![min_max_temperatures_per_country](images/min_max_per_country.png)
 
 #### Nodes used :
+1. **Group By**
+2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, i chose the **low** class to be any temperature less than or equal **5.08**, the **medium** class to be any temperature greater than **5.08** and less than or equal **17.50**, and finally the **High** class to be any temperature greater than **17.50**.
 
 
 
