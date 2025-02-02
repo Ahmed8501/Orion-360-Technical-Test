@@ -96,6 +96,18 @@ I also changed the name of the column to **Class** as required.
 
 
 
+### Requirement 3: Output a table that has the difference between the average of the country in each year and the average global temp in the last 24 years.
+
+#### Nodes used :
+1. **Joiner node**: I used this node to join both datasets. I joined the **City Temperatures Dataset** with the **Global Temperatures Dataset** using **Year** as the key since this is the common column between both datasets. This resulted in a table with 4 columns: **Year**, **Country**, **Avg_temp_per_country**, **Global_avg_temp**.
+2. **Math Formula**: I used the **Math Formula** node to create a new column called **"Difference"** that contains the difference between **global temperature** and **Avg_temp_per_country** for each year.
+3. **Column Filter**: I used the **Column Filter** node to filter the 3 columns that are required in the output table. (**Year**, **Country**, **Difference**).
+4. **Row Filter**: I used this node to filter the years to only include the last 24 years as required. I included years from 1989 to 2013.
+5. **Numeric Rounder**: I used this node to round the difference column to 1 decimal place.
+
+
+
+
 
 
 
