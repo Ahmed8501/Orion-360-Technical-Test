@@ -40,13 +40,62 @@ Next, as an additional analysis, i checked the minimum and the maximim temp reco
 ![min_max_temperatures_per_country](images/min_max_per_country.png)
 
 In order to identify the ranges, i did the following: 
- 1. I noticed that in the sample table provided in the email, **Albania** is classified as **Mid** and it has a temperature of **15.50**, and **Algeria** is classified as **High** and has a temperatue of **16.4**.
- 2. So i assumed the **High class** range to start from **16** up to the maximum temperature (30.73) alongside the following ranges: **Low class** starts from **-14.35** (min) up to **5.08**, and the **Mid class** starts from **5.09** to **15.50**
+#### Step 1: Identify the range
+minimum temperature: -14.35
+
+
+maximum temperature: 30.73
+
+
+Range = 30.73 - (-14.35) = 45.08
+
+#### Step 2: Divide the Range into 3 Equal Parts
+45.08 / 3 = 15.03
+
+#### Step 3: Define the Temperature Ranges
+
+
+Low: -14.35 to 0.68
+
+
+(-14.35 + 15.03 = 0.68)
+
+
+Mid: 0.69 to 15.71
+
+
+(0.68 + 15.03 = 15.71)
+
+
+High: 15.72 to 30.73
 
 
 #### Nodes used :
-1. **Group By**
-2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, i chose the **low** class to be any temperature less than or equal **5.08**, the **medium** class to be any temperature greater than **5.08** and less than or equal **15.50**, and finally the **High** class to be any temperature greater than **16**.
+1. **Group By**: To get the table from requirement 1 that contains the average temperature per country. I also used 2 other group by nodes. one to get the overall minimum and maximum temperatures, and another one to get the minimum and maximum temperatures for each country (for extra insights to understand the data better).
+2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". This is the code used:
+
+$avg_temp$ <= 0.68 => "Low"
+
+
+$avg_temp$ > 0.69 AND $avg_temp$ <= 15.71 => "Mid"
+
+
+$avg_temp$ > 15.72 => "High"
+
+I also changed the name of the column to **Class** as required.
+
+
+3. **Column filter**: I used this node to show only the country and the class as required.
+
+#### WorkFlow for requirement 2:
+![Workflow for requirement 2](images/Workflow_2.png)
+
+
+#### Sample table for requirement 2:
+![table for requirement 2](images/table_2.png)
+
+
+
 
 
 
