@@ -149,7 +149,7 @@ I also changed the name of the column to **Class** as required.
 
 As we can see from the above table, the 5 highest values in the difference from the global Temp belong to **Mongolia**. This makes sense because **Mongolia** is the only country that has an avergare temperature lower than 0 (-3.37).
 
-**.** If we take a deeper look into the table, we will find that the countries that had the greatest difference after **Mongolia** are: **Norway** , **Russia**, **Kazakhstan**, and **Finland**.
+If we take a deeper look into the table, we will find that the countries that had the greatest difference after **Mongolia** are: **Norway** , **Russia**, **Kazakhstan**, and **Finland**.
 
 
 
