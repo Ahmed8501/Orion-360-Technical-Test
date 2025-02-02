@@ -39,6 +39,23 @@ Next, as an additional analysis, i checked the minimum and the maximim temp reco
 
 ![min_max_temperatures_per_country](images/min_max_per_country.png)
 
+In order to identify the ranges, i did the following: 
+#### Step 1:
+Minimum temperature: -14.35
+Maximum temperature: 30.73
+Range: 30.73 -(-14.35) = 45.08
+
+#### Step 2:  Divide the Range into 3 Equal Parts
+45.08 / 3 = 15.03
+
+#### Step 3: Define the Temperature Ranges
+Low: -14.35 to 0.68
+(-14.35 + 15.03 = 0.68)
+Mid: 0.69 to 15.71
+(0.68 + 15.03 = 15.71)
+High: 15.72 to 30.73
+
+
 #### Nodes used :
 1. **Group By**
 2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, i chose the **low** class to be any temperature less than or equal **5.08**, the **medium** class to be any temperature greater than **5.08** and less than or equal **17.50**, and finally the **High** class to be any temperature greater than **17.50**.
