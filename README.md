@@ -75,7 +75,11 @@ High: 15.72 to 30.73
 2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". This is the code used:
 
 $avg_temp$ <= 0.68 => "Low"
+
+
 $avg_temp$ > 0.69 AND $avg_temp$ <= 15.71 => "Mid"
+
+
 $avg_temp$ > 15.72 => "High"
 
 I also changed the name of the column to **Class** as required.
