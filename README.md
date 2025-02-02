@@ -13,6 +13,9 @@
 3. **Group By**: This node is used to show each country with its overall average temperature. I chose the country column to group by with since we want the average per country.
 4. **Number Rounder**: This node rounds the avg_temp per country to 2 decimal places as is required in the sample table in the email.
 
-### WorkFlow for requirement 1:
+#### WorkFlow for requirement 1:
 ![Workflow for requirement 1](images/Requirement%201%20workflow.png)
+
+#### Sample table for requirement 1:
+![Workflow for requirement 1](images/Requirement%201%20sample%20table.png)
 
