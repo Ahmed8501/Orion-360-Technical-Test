@@ -14,4 +14,5 @@
 4. **Number Rounder**: This node rounds the avg_temp per country to 2 decimal places as is required in the sample table in the email.
 
 ### WorkFlow for requirement 1:
-![Description](Requirement 1 workflow.png)
+![Workflow for requriement 1](images/Requirement 1 workflow.png)
+
