@@ -131,7 +131,7 @@ I also changed the name of the column to **Class** as required.
 
 ### Nodes used:
 
-1.**Sorter**: I used this node to sort the results from the **Difference** table in **Requirement 3** in descending order to have the highest difference values at the top of the table.
+1. **Sorter**: I used this node to sort the results from the **Difference** table in **Requirement 3** in descending order to have the highest difference values at the top of the table.
 
 2. **Column Filter**: I used this node to include only the **Country** and the **Difference** columns as required.
 
@@ -147,6 +147,9 @@ I also changed the name of the column to **Class** as required.
 #### Sample table for requirement 4:
 ![table for requirement 4](images/table_4.png)
 
+As we can see from the above table, the 5 highest values in the difference from the global Temp belong to **Mongolia**. This makes sense because **Mongolia** is the only country that has an avergare temperature lower than 0 (-3.37).
+
+**.** If we take a deeper look into the table, we will find that the countries that had the greatest difference after **Mongolia** are: **Norway** , **Russia**, **Kazakhstan**, and **Finland**.
 
 
 
