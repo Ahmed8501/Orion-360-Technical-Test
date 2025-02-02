@@ -46,7 +46,7 @@ In order to identify the ranges, i did the following:
 
 #### Nodes used :
 1. **Group By**
-2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, i chose the **low** class to be any temperature less than or equal **5.08**, the **medium** class to be any temperature greater than **5.08** and less than or equal **17.50**, and finally the **High** class to be any temperature greater than **17.50**.
+2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". For the ranges, i chose the **low** class to be any temperature less than or equal **5.08**, the **medium** class to be any temperature greater than **5.08** and less than or equal **15.50**, and finally the **High** class to be any temperature greater than **16**.
 
 
 
