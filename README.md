@@ -110,7 +110,7 @@ I also changed the name of the column to **Class** as required.
 5. **Numeric Rounder**: I used this node to round the difference column to 1 decimal place.
 
 #### WorkFlow for requirement 3:
-![Workflow for requirement 3](images/Workflow_3.png)
+![Workflow for requirement 3](images/workflow_3.png)
 
 
 #### Sample table for requirement 3:
