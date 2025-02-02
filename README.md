@@ -42,7 +42,11 @@ Next, as an additional analysis, i checked the minimum and the maximim temp reco
 In order to identify the ranges, i did the following: 
 #### Step 1: Identify the range
 minimum temperature: -14.35
+
+
 maximum temperature: 30.73
+
+
 Range = 30.73 - (-14.35) = 45.08
 
 #### Step 2: Divide the Range into 3 Equal Parts
