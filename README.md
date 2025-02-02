@@ -40,28 +40,8 @@ Next, as an additional analysis, i checked the minimum and the maximim temp reco
 ![min_max_temperatures_per_country](images/min_max_per_country.png)
 
 In order to identify the ranges, i did the following: 
-#### Step 1: Identify the range
-Minimum temperature: -14.35
-Maximum temperature: 30.73
-Range: 30.73 -(-14.35) = 45.08
-
-#### Step 2:  Divide the Range into 3 Equal Parts
-45.08 / 3 = 15.03
-
-#### Step 3: Define the Temperature Ranges
-Low: -14.35 to 0.68
-
-
-(-14.35 + 15.03 = 0.68)
-
-
-Mid: 0.69 to 15.71
-
-
-(0.68 + 15.03 = 15.71)
-
-
-High: 15.72 to 30.73
+ 1. I noticed that in the sample table provided in the email, **Albania** is classified as **Mid** and it has a temperature of **15.50**, and **Algeria** is classified as **High** and has a temperatue of **16.4**.
+ 2. So i assumed the **High class** range to start from **16** up to the maximum temperature (30.73) alongside the following ranges: **Low class** starts from **-14.35** (min) up to **5.08**, and the **Mid class** starts from **5.09** to **15.50**
 
 
 #### Nodes used :
