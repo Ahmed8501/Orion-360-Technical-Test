@@ -19,6 +19,8 @@
 #### Sample table for requirement 1:
 ![Workflow for requirement 1](images/Requirement%201%20sample%20table.png)
 
+---
+
 
 ### Requirement 2:  Classify the countries Temperature into “Low/Mid/High”
 I used the output table from requirement 1 and added several steps tp classifiy the countries.
