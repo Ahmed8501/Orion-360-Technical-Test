@@ -23,6 +23,8 @@
 
 
 ### Requirement 2:  Classify the countries Temperature into “Low/Mid/High”
+
+
 I used the output table from requirement 1 and added several steps tp classifiy the countries.
 First of all, I checked the minimum and the maximum avg_temps using the **Group By** node. As we can see below, the minimum temperature is -14.35 and the maximum temperature is 30.73.
 ![min_max_temperatures](images/min_max_temps.png)
