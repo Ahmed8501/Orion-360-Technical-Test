@@ -149,7 +149,15 @@ I also changed the name of the column to **Class** as required.
 
 As we can see from the above table, the 5 highest values in the difference from the global Temp belong to **Mongolia**. This makes sense because **Mongolia** is the only country that has an avergare temperature lower than 0 (-3.37).
 
+
+
 If we take a deeper look into the table, we will find that the countries that had the greatest difference after **Mongolia** are: **Norway** , **Russia**, **Kazakhstan**, and **Finland**.
+
+
+### Requirement 5: Draw a histogram for the yearly global temperatures
+![Histogram](images/Histogram.png)
+
+As we can see from the histogram, there is only 1 year that has an average temperature less than 6.0 (This can be an outlier compared to other temperatures). This is year **1750**. Also, we can notice that the greatest frequency (84) is for the avg_temperatures between 8.21 and 8.62.
 
 
 
