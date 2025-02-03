@@ -165,6 +165,15 @@ As we can see from the histogram, there is only 1 year that has an average tempe
 
 I chose **Cairo** to compare between it's temperature and the global average temperature over the past years.
 
+I chose a **Line Chart** for this comparison because **line charts** are excellent for visualizing changes and trends over a period, making it easier to compare patterns between the two temperatures. In addition, it shows clearly how the city's temperature fluctuates relative to the global average.
+
+### Nodes used:
+
+1. **Row Filter**: I used this node to filter the cities to only include **Cairo**.
+2. **Joiner**: I used the **joiner** node to join the two datasets because the city is in one dataset while the global average is in another dataset.
+3. **Line Plot**: I used this node to draw the line plot.
+
+
 
 
 
