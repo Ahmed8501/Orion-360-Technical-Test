@@ -160,6 +160,13 @@ If we take a deeper look into the table, we will find that the countries that ha
 As we can see from the histogram, there is only 1 year that has an average temperature less than 6.0 (This can be an outlier compared to other temperatures). This is year **1750**. Also, we can notice that the greatest frequency (84) is for the avg_temperatures between 8.21 and 8.62.
 
 
+### Requirement 6: Choose any city and draw a chart to compare between this city and global average temperature over the past years
+![Histogram](images/Line Plot.png)
+
+I chose **Cairo** to compare between it's temperature and the global average temperature over the past years.
+
+
+
 
 
 
