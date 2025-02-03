@@ -161,7 +161,7 @@ As we can see from the histogram, there is only 1 year that has an average tempe
 
 
 ### Requirement 6: Choose any city and draw a chart to compare between this city and global average temperature over the past years
-![Histogram](images/Line Plot.png)
+![Line Plot](images/Line%20Plot.png)
 
 I chose **Cairo** to compare between it's temperature and the global average temperature over the past years.
 
