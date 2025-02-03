@@ -9,8 +9,14 @@
 ### Requirement 1: Output a table that has the overall average of each country.
 #### Nodes used : 
 1. **CSV Reader**: This node reads the csv file into KNIME's workflow. The csv file used for this requriement is the city temperatures csv.
+
+
 2. **Row Filter**: I used this node in order to handle the missing values in the dataset. The row filter node includes only the rows that don't have missing values.
+
+
 3. **Group By**: This node is used to show each country with its overall average temperature. I chose the country column to group by with since we want the average per country.
+
+
 4. **Number Rounder**: This node rounds the avg_temp per country to 2 decimal places as is required in the sample table in the email.
 
 #### WorkFlow for requirement 1:
@@ -72,6 +78,8 @@ High: 15.72 to 30.73
 
 #### Nodes used :
 1. **Group By**: To get the table from requirement 1 that contains the average temperature per country. I also used 2 other group by nodes. one to get the overall minimum and maximum temperatures, and another one to get the minimum and maximum temperatures for each country (for extra insights to understand the data better).
+
+
 2. **Math Formula**: I used this node to classifiy the three ranges "Low", "Mid", "High". This is the code used:
 
 $avg_temp$ <= 0.68 => "Low"
@@ -117,6 +125,31 @@ I also changed the name of the column to **Class** as required.
 ![table for requirement 3](images/table_3.png)
 
 
+
+
+### Requirement 4:  Output a table that shows the top 5 countries that have the largest difference from the global Temp.
+
+### Nodes used:
+
+1. **Sorter**: I used this node to sort the results from the **Difference** table in **Requirement 3** in descending order to have the highest difference values at the top of the table.
+
+2. **Column Filter**: I used this node to include only the **Country** and the **Difference** columns as required.
+
+3. **Top K Row Filter**: I used this node to get the top 5 highest difference values from the table.
+
+4. **Sorter**: I used the **Sorter** node again to sort the top 5 values in descending order.
+
+
+#### WorkFlow for requirement 4:
+![Workflow for requirement 4](images/workflow_4.png)
+
+
+#### Sample table for requirement 4:
+![table for requirement 4](images/table_4.png)
+
+As we can see from the above table, the 5 highest values in the difference from the global Temp belong to **Mongolia**. This makes sense because **Mongolia** is the only country that has an avergare temperature lower than 0 (-3.37).
+
+If we take a deeper look into the table, we will find that the countries that had the greatest difference after **Mongolia** are: **Norway** , **Russia**, **Kazakhstan**, and **Finland**.
 
 
 
